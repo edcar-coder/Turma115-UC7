@@ -1,0 +1,83 @@
+/* reset Basico do CSS */
+*{
+    margin: 0; /* Remover todos as margens */
+    padding: 0; /* Remover todo preenchimento */
+    box-sizing: border-box; /* Inclui bordas e preenchimento para calcular o tamanho */
+}
+
+/* Seletor de tag*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* Define o espaçamento entre linhas*/
+    color: #333; /* Definir a cor do texto para cinza excuro */
+    background-color: #f4f4f4f4; /* Define a cor de funfo como cinza claro */
+    padding: 10px; /* Adicionsa espaçamento interno ao corpo (body) */
+}
+
+header{
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+ /* Formatar a barra de navegação */
+ nav  ul {
+    list-style: none; /* remove os marcores padrões da lista */
+    display: flex;    /* Aplica o display flexivel (linha comportamento padrão) */
+    justify-content: center; /* Centralizar os itens */
+    gap: 15px; /* Adiciona um espaçamento entre os itens */
+    padding: 10px;
+ }
+
+ nav a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado das links */
+    padding: 5px;
+ }
+
+nav a:hover{
+    text-decoration: underline; /* Adiciona um sublimhado ao passar o mouse sobre o lonk */
+}
+
+section {
+    margin: 20px 0; /* Adiciona espaçamento vertical entre as seções */
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px; /* arrendendor as bordas da section */
+    box-shadow: 0 2px rgba(0,0,0, 0.1); /* Adiciona um pouco de sombra a section */
+}
+
+section h2{
+    color: #0056b3;
+    padding-bottom: 10px ;
+}
+
+section ul{
+    margin-left: 20px;
+    list-style-type: "●";
+}
+section li{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+/* Titulos
+
+
+
+
+/*seletor de tag */
+h3{
+    background-color: black;
+}
+/* S    eletor de classe */
+.testeee{
+    background-color: aliceblue;
+}
+/* Seletor de ID */
+#homeee{
+    background-color:aquamarine ;
+}
+
+
+/* https://github.com/Joel-Santos/turma115-UC07/blob/main/aula27-01/exemplo-landing-page.html */
